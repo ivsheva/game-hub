@@ -1,5 +1,5 @@
-import { Icon } from "@chakra-ui/react";
 import { HStack } from "@chakra-ui/layout";
+import { Icon } from "@chakra-ui/react";
 import { IconType } from "react-icons";
 import { BsGlobe } from "react-icons/bs";
 import {
@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 import { MdPhoneIphone } from "react-icons/md";
 import { SiNintendo } from "react-icons/si";
-import { Platform } from "../../Entities/Platform";
+import Platform from "../../Entities/Platform";
 interface Props {
   platforms: Platform[];
 }
