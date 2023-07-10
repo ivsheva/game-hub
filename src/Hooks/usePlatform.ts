@@ -1,10 +1,10 @@
 import Platform from "../Entities/Platform";
-import UsePlatforms from "./UsePlatforms";
+import usePlatforms from "./usePlatforms";
 
-const UsePlatform = (id?: number) => {
-    const {data: platforms} = UsePlatforms();
+const usePlatform = (id?: number) => {
+    const {data: platforms} = usePlatforms();
 
     return platforms?.results.find((p: Platform) => p.id === id)
 }
 
-export default UsePlatform
+export default usePlatform
