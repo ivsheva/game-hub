@@ -1,8 +1,8 @@
 import Platform from "../Entities/Platform";
-import usePlatforms from "./usePlatforms";
+import UsePlatforms from "./UsePlatforms";
 
 const usePlatform = (id?: number) => {
-    const {data: platforms} = usePlatforms();
+    const {data: platforms} = UsePlatforms();
 
     return platforms?.results.find((p: Platform) => p.id === id)
 }
