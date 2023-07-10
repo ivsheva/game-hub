@@ -1,5 +1,5 @@
-import usePlatforms from "./usePlatforms";
 import Platform from "../Entities/Platform";
+import usePlatforms from "./usePlatforms";
 
 const usePlatform = (id?: number) => {
     const {data: platforms} = usePlatforms();
