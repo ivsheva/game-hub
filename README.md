@@ -15,6 +15,6 @@ To get started with Game Hub, follow these steps:
 
 ## Visit site
 
-Game hub project is using netlify hosting for being avalaible on the internet, so you can visit it.
+Game hub project is using Vercel hosting for being avalaible on the internet, so you can visit it.
 
 You can visit the site using **https://game-hub-main-discovery.vercel.app/**
